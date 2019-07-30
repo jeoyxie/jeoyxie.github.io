@@ -28,7 +28,7 @@ body {
   font: normal .85em arial, sans-serif;
   background: #F2F2F2;
   color: #444;
-  padding-bottom: 40px;
+  padding-bottom: 5px;
 }
 
 p { 
@@ -54,7 +54,7 @@ h1 {
 }
 
 h2 { 
-  font: normal 280% 'Jenna Sue', arial, sans-serif;
+  font: normal 280% 'News Cycle', arial, sans-serif;
   color: #222;  
   margin: 0;
   padding: 0 0 8px 0;
@@ -138,7 +138,7 @@ ol li {
 
 #main { 
   width: 950px;
-  margin: 20px auto 0 auto;
+  margin: 5px auto 0 auto;
 }
 
 header { 
@@ -151,14 +151,14 @@ header {
   float: left;
   height: 100px;
   background: transparent;
-  padding: 0 0 10px 0;
+  padding: 30px 0 0 0;
 }
 
 #logo h1 { 
-  font: normal 440% 'Jenna Sue', arial, sans-serif;
-  padding: 60px 0 0 0;
+  font: normal 450% 'Jenna Sue', arial, sans-serif;
+  padding: 5px 0 0 0;
   color: #222;
-  letter-spacing: -2px;
+  letter-spacing: 3px;
 }
 
 #logo h1 a { 
@@ -195,8 +195,8 @@ header {
 }
   
 .sidebar h3 { 
-  padding: 0 15px 0px 0;
-  font: 400% 'Jenna Sue', arial, sans-serif;
+  padding: 0 15px 0 0;
+  font: 200% 'News Cycle', arial, sans-serif;
   text-shadow:  #FFF 1px 1px;
   margin: 0 1px;
   color: #222;
@@ -228,13 +228,13 @@ header {
 
 footer { 
   width: 950px;
-  font: normal 130% 'News Cycle',  arial, sans-serif;
-  height: 90px;
-  padding: 20px 0 5px 0;
+  font: normal 80% 'News Cycle',  arial, sans-serif;
+  height: 50px;
+  padding: 2px 0 5px 0;
   text-align: center; 
   color: #222;
   background: #FFF;
-  margin-top: 20px;
+  margin-top: 3px;
 }
 
 footer p { 
@@ -357,34 +357,36 @@ ul img {
  
 #slideshow-caption {
   width: 950px;
-  height: 90px;
+  height: 50px;
   position: absolute;
+  color: #222;
+  background-color: rgba(255,255,255,0.5);
   bottom: 0;
   left: 0; 
   z-index: 500;}
  
 #slideshow-caption .slideshow-caption-container {
-  padding: 38px 25px 0 25px;   
+  padding: 5px 25px 0 28px;   
   z-index: 1000;}
  
 #slideshow-caption p {
   padding: 0;
-  font: normal 100% 'News Cycle', arial, sans-serif;
-  color: #000;}
+  font: bold 120% 'News Cycle', arial, sans-serif;
+  color: #551A8B;}
 
 nav { 
   height: 80px;
   width: 750px;
   margin: 1px auto 0 auto;
   float: right;
-  padding: 35px 0 20px 0;
+  padding: 0 0 5px 0;
 } 
 
 /* from here: http://www.gmarwaha.com/blog/2007/08/23/lavalamp-for-jquery-lovers */
 .lavaLampWithImage {
   position: relative;
   height: 40px;
-  padding: 15px 5px 15px 0;
+  padding: 15px 5px 5px 0;
   margin: 10px 0 0 0;
   overflow: hidden;
   float: right;
@@ -404,7 +406,7 @@ nav {
 }
 
 .lavaLampWithImage li a {
-  font: normal 100% 'News Cycle', sans-serif;
+  font: normal 120% 'News Cycle', sans-serif;
   text-shadow:1px 1px #FFF;
   text-decoration: none;
   color: #222;
